@@ -1,0 +1,6 @@
+data/raw/
+*.gdb/
+.backups/
+Index/
+ImportLog/
+*.lock
