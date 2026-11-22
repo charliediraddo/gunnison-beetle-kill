@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xalan="http://xml.apache.org/xalan">
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<hierarchyLevel>
+<MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+</hierarchyLevel>
+<hierarchyLevelName>
+<gco:CharacterString>dataset</gco:CharacterString>
+</hierarchyLevelName>
+<contact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>DiRaddo, Charlie</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>none</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>None</gco:CharacterString>
+</voice>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<city>
+<gco:CharacterString>None</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>None</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>None</gco:CharacterString>
+</postalCode>
+</CI_Address>
+</address>
+<onlineResource>
+<CI_OnlineResource>
+<linkage>
+<URL>https://github.com/charliediraddo/gunnison-beetle-kill</URL>
+</linkage>
+</CI_OnlineResource>
+</onlineResource>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</contact>
+<dateStamp>
+<gco:Date>2026-11-22</gco:Date>
+</dateStamp>
+<metadataStandardName>
+<gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+</metadataStandardName>
+<metadataStandardVersion>
+<gco:CharacterString>2007</gco:CharacterString>
+</metadataStandardVersion>
+<identificationInfo>
+<MD_DataIdentification>
+<citation>
+<CI_Citation>
+<title>
+<gco:CharacterString>Bark beetle mortality footprint by agent, Gunnison National Forest, Colorado, 1997–2025</gco:CharacterString>
+</title>
+<date>
+<CI_Date>
+<date>
+<gco:Date>2026-11-22</gco:Date>
+</date>
+<dateType>
+<CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+</dateType>
+</CI_Date>
+</date>
+<citedResponsibleParty>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>DiRaddo, Charlie</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>none</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>None</gco:CharacterString>
+</voice>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<city>
+<gco:CharacterString>None</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>None</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>None</gco:CharacterString>
+</postalCode>
+</CI_Address>
+</address>
+<onlineResource>
+<CI_OnlineResource>
+<linkage>
+<URL>https://github.com/charliediraddo/gunnison-beetle-kill</URL>
+</linkage>
+</CI_OnlineResource>
+</onlineResource>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</citedResponsibleParty>
+</CI_Citation>
+</citation>
+<abstract>
+<gco:CharacterString>This dataset shows the footprint of tree mortality attributed to bark beetles in the Gunnison National Forest, Colorado, from 1997 to 2025. It was derived from the USDA Forest Service Insect and Disease Survey (Region 2), filtered to records with damage type "Mortality" caused by bark beetle agents, and clipped to the Gunnison National Forest proclaimed boundary. Polygons from all survey years were dissolved by agent so each acre is counted once. Spruce beetle had the largest footprint (about 247,000 acres), followed by Douglas-fir beetle (about 35,000 acres) and western balsam bark beetle (about 24,000 acres). The subalpine fir mortality complex (about 150,000 acres) is included because bark beetles contribute to it, but it is not counted as bark beetle mortality. Areas are approximate and mark ground where some trees died, not where all trees died.</gco:CharacterString>
+</abstract>
+<purpose>
+<gco:CharacterString>Shows which bark beetles caused tree mortality in the Gunnison NF and how much ground each affected, counting each acre once across all survey years. Created as a portfolio project in geospatial data processing and documentation.</gco:CharacterString>
+</purpose>
+<credit>
+<gco:CharacterString>Insect and Disease Survey data: USDA Forest Service, Forest Health Protection. Forest boundary: USDA Forest Service, Original Proclaimed National Forests (FSGeodata Clearinghouse). Processing: Charles DiRaddo.</gco:CharacterString>
+</credit>
+<status>
+<MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+</status>
+<pointOfContact>
+<CI_ResponsibleParty>
+<individualName>
+<gco:CharacterString>DiRaddo, Charlie</gco:CharacterString>
+</individualName>
+<organisationName>
+<gco:CharacterString>none</gco:CharacterString>
+</organisationName>
+<contactInfo>
+<CI_Contact>
+<phone>
+<CI_Telephone>
+<voice>
+<gco:CharacterString>None</gco:CharacterString>
+</voice>
+</CI_Telephone>
+</phone>
+<address>
+<CI_Address>
+<city>
+<gco:CharacterString>None</gco:CharacterString>
+</city>
+<administrativeArea>
+<gco:CharacterString>None</gco:CharacterString>
+</administrativeArea>
+<postalCode>
+<gco:CharacterString>None</gco:CharacterString>
+</postalCode>
+</CI_Address>
+</address>
+<onlineResource>
+<CI_OnlineResource>
+<linkage>
+<URL>https://github.com/charliediraddo/gunnison-beetle-kill</URL>
+</linkage>
+</CI_OnlineResource>
+</onlineResource>
+</CI_Contact>
+</contactInfo>
+<role>
+<CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+</role>
+</CI_ResponsibleParty>
+</pointOfContact>
+<resourceMaintenance>
+<MD_MaintenanceInformation>
+<maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned" codeSpace="ISOTC211/19115">notPlanned</MD_MaintenanceFrequencyCode>
+</maintenanceAndUpdateFrequency>
+</MD_MaintenanceInformation>
+</resourceMaintenance>
+<descriptiveKeywords>
+<MD_Keywords>
+<keyword>
+<gco:CharacterString>bark beetle; spruce beetle; forest health</gco:CharacterString>
+</keyword>
+<type>
+<MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+</type>
+</MD_Keywords>
+</descriptiveKeywords>
+<resourceConstraints>
+<MD_Constraints>
+<useLimitation>
+<gco:CharacterString>Licensed under CC BY 4.0: free to use without additional permission or fees, with attribution. Cite as: DiRaddo, Charles. 2026. Bark beetle mortality footprint by agent, Gunnison National Forest, Colorado, 1997–2025. https://github.com/charliediraddo/gunnison-beetle-kill. Please also cite the source data: USDA Forest Service, Forest Health Protection, Insect and Disease Survey. Areas are approximate, sketched from aircraft; not for regulatory or legal use.</gco:CharacterString>
+</useLimitation>
+</MD_Constraints>
+</resourceConstraints>
+<language gco:nilReason="missing"></language>
+<characterSet>
+<MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+</characterSet>
+<topicCategory>
+<MD_TopicCategoryCode>biota</MD_TopicCategoryCode>
+</topicCategory>
+<topicCategory>
+<MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+</topicCategory>
+<extent>
+<EX_Extent>
+<description>
+<gco:CharacterString>Data is entirely in the Gunnison National Forest. Survey dates are from 1997 to 2025. I am missing the exact day/month of the beginning and end surveys.</gco:CharacterString>
+</description>
+<geographicElement>
+<EX_GeographicBoundingBox>
+<extentTypeCode>
+<gco:Boolean>true</gco:Boolean>
+</extentTypeCode>
+<westBoundLongitude>
+<gco:Decimal>-107.7219</gco:Decimal>
+</westBoundLongitude>
+<eastBoundLongitude>
+<gco:Decimal>-106.2373</gco:Decimal>
+</eastBoundLongitude>
+<southBoundLatitude>
+<gco:Decimal>37.842</gco:Decimal>
+</southBoundLatitude>
+<northBoundLatitude>
+<gco:Decimal>39.2559</gco:Decimal>
+</northBoundLatitude>
+</EX_GeographicBoundingBox>
+</geographicElement>
+<temporalElement>
+<EX_TemporalExtent>
+<extent>
+<gml:TimePeriod gml:id="IDPV1WI1AZKP3I0IDK5PIZQ3PDHA0IWMX3L4PVIJHPKOAE221X4YD">
+<gml:beginPosition>1997-01-01T00:00:00</gml:beginPosition>
+<gml:endPosition>2025-12-31T00:00:00</gml:endPosition>
+</gml:TimePeriod>
+</extent>
+</EX_TemporalExtent>
+</temporalElement>
+</EX_Extent>
+</extent>
+</MD_DataIdentification>
+</identificationInfo>
+<metadataMaintenance>
+<MD_MaintenanceInformation>
+<maintenanceAndUpdateFrequency>
+<MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="notPlanned" codeSpace="ISOTC211/19115">notPlanned</MD_MaintenanceFrequencyCode>
+</maintenanceAndUpdateFrequency>
+</MD_MaintenanceInformation>
+</metadataMaintenance>
+</MD_Metadata>
