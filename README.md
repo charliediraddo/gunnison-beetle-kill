@@ -33,7 +33,7 @@ Note on Subalpine fir mortality complex: I included Subalpine fir mortality comp
 
 ## Limitations
  
-- Areas are sketched from airplanes, so edges are approximate.
+- Some areas are sketched from airplanes, so edges are approximate.
 - An affected area has dead trees, but not necessarily all of the trees in the area are dead. Since 2015 the survey records the percent of trees affected in each area. This project doesn't use it because earlier years don't have it. Ranges can be from 1% to over 50%.
 
 ## References
